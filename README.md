@@ -1,11 +1,36 @@
 # Handpan
 
-Engineering documentation and parametric design table for the handpan — the contemporary tuned-shell tongueless metal hand drum.
+Engineering documentation and parametric design table for a D Kurd root-mode handpan: the contemporary tuned-shell, tongueless metal hand drum built from two formed steel shells, a center Ding, eight surrounding tone fields, and a bottom Gu port.
 
 Part of the [tonykoop/instrument-maker](https://github.com/tonykoop/instrument-maker) catalogue.
 
-> CAD renders, Wolfram notebook recordings, and a finalized build method are forthcoming.
+This repo is intentionally framed as a buildable research packet, not a promise that the spreadsheet can predict a finished handpan. Handpan tone fields are governed by hammered shell geometry, work-hardening, residual stress, shell coupling, and tuner technique. The calculations in `handpan-design-table.xlsx`, `design.md`, and `wolfram-starter.wl` are first-order sanity checks for scale, Gu behavior, and documentation. Final pitch, partial balance, sustain, and isolation must be earned through measured tuning passes on a real shell.
+
+## Packet Map
+
+- `design.md` - root-mode design intent, D Kurd note map, assumptions, and empirical tuning strategy.
+- `family-spec.csv` - root packet row plus variant rows that should not be released without measured prototypes.
+- `bom.csv`, `sourcing.csv`, `cut-list.csv` - purchasing and fabrication surfaces with quote-sensitive fields kept explicit.
+- `assembly-manual.md` - staged build method from shell inspection through settle/retune cycles.
+- `validation.csv` - tuner-driven acceptance plan for cents error, partials, sustain, cross-talk, Gu coupling, and retuning drift.
+- `risks.md` - red-team review covering metal forming, heat/work-hardening, repeatability, and public-release limits.
+- `drawing-brief.md`, `cad/handpan-cad-brief.md`, `cnc/fixture-cnc-brief.md`, `drawings/drawing-index.md` - CAD/CNC/drawing briefs for shells, fixtures, templates, and inspection views.
+- `capstone-deck.md`, `capstone-manifest.json`, `print-packet.md`, `print-packet.html`, `site/index.html` - presentation, print, and static-site handoff artifacts.
+
+## Current Root Mode
+
+The current packet starts from the workbook defaults:
+
+- Scale: D Kurd, 9 notes.
+- Shell: 21 in nominal diameter, 9.5 in total height, 1.0 mm steel.
+- Material path: nitrided DC04 preferred for first controlled build; stainless is allowed as a separate measured branch.
+- Gu: 3.5 in nominal port with 0.5 in rolled lip, yielding a workbook first-order Helmholtz estimate near 115 Hz.
+- Notes: D3 Ding plus A3, Bb3, C4, D4, E4, F4, G4, A4 fields.
+
+## Reality Check
+
+The handpan should remain private until a human handpan tuner or metal-forming lead reviews the packet, approves the shell process, and signs off measured prototype data. The packet is useful for procurement, fixture planning, documentation, and validation discipline. It is not a guaranteed path to a concert instrument.
 
 ## License
 
-[CC BY 4.0](LICENSE) — see LICENSE for details.
+[CC BY 4.0](LICENSE) - see LICENSE for details.

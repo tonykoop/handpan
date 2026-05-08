@@ -1,0 +1,37 @@
+{
+  "packet_id": "HPAN-D-KURD-ROOT",
+  "instrument": "Handpan",
+  "mode": "root",
+  "status": "private research prototype",
+  "scale": "D Kurd",
+  "source_workbook": "handpan-design-table.xlsx",
+  "deliverables": [
+    "design.md",
+    "family-spec.csv",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "validation.csv",
+    "assembly-manual.md",
+    "supplier-rfq.md",
+    "drawing-brief.md",
+    "visual-bom-brief.md",
+    "wolfram-starter.wl",
+    "risks.md",
+    "photo-shotlist.md",
+    "capstone-deck.md",
+    "print-packet.md",
+    "print-packet.html",
+    "site/index.html",
+    "cad/handpan-cad-brief.md",
+    "cnc/fixture-cnc-brief.md",
+    "drawings/drawing-index.md"
+  ],
+  "honesty_gate": "Formulas are first-order sanity checks only; final acceptance requires measured tuning and human review.",
+  "private_until": [
+    "human handpan tuner review",
+    "metal forming safety/process review",
+    "supplier/IP/public-release review",
+    "measured prototype validation data"
+  ]
+}
