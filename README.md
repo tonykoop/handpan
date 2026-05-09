@@ -13,6 +13,8 @@ This repo is intentionally framed as a buildable research packet, not a promise 
 - `bom.csv`, `sourcing.csv`, `cut-list.csv` - purchasing and fabrication surfaces with quote-sensitive fields kept explicit.
 - `assembly-manual.md` - staged build method from shell inspection through settle/retune cycles.
 - `validation.csv` - tuner-driven acceptance plan for cents error, partials, sustain, cross-talk, Gu coupling, and retuning drift.
+- `validation-report.md` - current validator results and human-review gates before any public release.
+- `public-release-checklist.md` - explicit path from private research packet to safe public release.
 - `risks.md` - red-team review covering metal forming, heat/work-hardening, repeatability, and public-release limits.
 - `drawing-brief.md`, `cad/handpan-cad-brief.md`, `cnc/fixture-cnc-brief.md`, `drawings/drawing-index.md` - CAD/CNC/drawing briefs for shells, fixtures, templates, and inspection views.
 - `capstone-deck.md`, `capstone-manifest.json`, `print-packet.md`, `print-packet.html`, `site/index.html` - presentation, print, and static-site handoff artifacts.
@@ -30,6 +32,10 @@ The current packet starts from the workbook defaults:
 ## Reality Check
 
 The handpan should remain private until a human handpan tuner or metal-forming lead reviews the packet, approves the shell process, and signs off measured prototype data. The packet is useful for procurement, fixture planning, documentation, and validation discipline. It is not a guaranteed path to a concert instrument.
+
+## Public Release Path
+
+The repo is useful now as a private prototype handoff. Public release requires the gates in `public-release-checklist.md`: specialist review, supplier/process evidence, measured tuning data, safety review, and a public-claims pass. Until those are complete, describe the work as a research packet and fixture/documentation baseline.
 
 ## License
 

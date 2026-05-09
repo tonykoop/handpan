@@ -19,3 +19,5 @@ VAL-017,Sustain,each field decay,documented T60 or practical decay,unmeasured,s,
 VAL-018,Post-assembly drift,one-week retune drift,<=10,unmeasured,cents,+/-10 cents,recheck all fundamentals after rest,"after glue cure and settle",pending,"repeat settle/retune cycle"
 VAL-019,Finish safety,Gu edge and rim,no sharp edges,unmeasured,pass/fail,tactile and visual inspection,"after finishing",pending,"deburr/protect edge before play"
 VAL-020,Release gate,human tuner review,signed review,unmeasured,pass/fail,expert review of measurements/build log,"before public release",pending,"keep repo private or mark research-only"
+VAL-021,Release gate,supplier/process evidence,documented,unmeasured,pass/fail,review material certificate and treatment notes,"before public release",pending,"keep private; do not generalize material path"
+VAL-022,Release gate,public claims review,signed review,unmeasured,pass/fail,review README/site/deck/issue text,"before public release",pending,"revise wording to research-only posture"

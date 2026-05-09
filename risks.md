@@ -59,6 +59,14 @@ Mitigation: buy or professionally form shells for the first prototype, keep CNC 
 
 Mitigation: keep the repo private until reviewed, avoid brand confusion, cite sources sparingly, use original measurements, and publish only as a research/build-log packet with clear uncertainty labels.
 
+## Specialist Boundary
+
+- Tone-field forming, partial balancing, and drift control are specialist handpan-maker work.
+- CAD, CNC, SVG drawings, and workbook estimates in this repo are allowed to define fixtures, templates, measurement points, and documentation, but not final tuned field geometry.
+- If an experienced tuner changes the field order, hammer approach, material path, Gu detail, or acceptance targets, the packet should be revised before any public release.
+
+Mitigation: route the packet through `public-release-checklist.md`, preserve the tuning log, and treat specialist feedback as design data rather than commentary.
+
 ## Difference Between This Packet And A Guaranteed Instrument
 
 This packet provides: procurement specs, layout geometry, first-order physics, build order, validation gates, drawing briefs, and documentation scaffolding.
@@ -67,4 +75,4 @@ It does not provide: a proven hammer recipe, final tone-field contours, supplier
 
 ## Red-Team Verdict
 
-Proceed only as a controlled prototype. Keep private until human review and measured tuning evidence exist.
+Proceed only as a controlled prototype. Keep private until human review, measured tuning evidence, supplier/process evidence, and public-claims review exist.

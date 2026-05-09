@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1200" height="850" fill="white" stroke="black" stroke-width="2"/>
+  <text x="40" y="45" font-size="24" font-weight="700">HPAN-002 Shell Section, Gu Port, and Tuning Frame</text>
+  <text x="40" y="72" font-size="14" fill="#444">Inspection and fixture drawing. Dome curves and Gu edge are supplier/build measurements, not finished acoustic claims.</text>
+  <g transform="translate(80 140)">
+    <text x="0" y="-18" font-size="16" font-weight="700">A-A side section</text>
+    <path d="M 70 250 C 160 60, 520 60, 610 250" fill="none" stroke="black" stroke-width="3"/>
+    <path d="M 70 250 C 160 440, 520 440, 610 250" fill="none" stroke="black" stroke-width="3"/>
+    <line x1="70" y1="250" x2="610" y2="250" stroke="#777" stroke-dasharray="8 5"/>
+    <rect x="50" y="244" width="580" height="12" fill="white" stroke="black"/>
+    <text x="275" y="276" font-size="12" fill="#444">rim joint / adhesive zone - coupon test before closure</text>
+    <circle cx="340" cy="386" r="45" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="340" cy="386" r="52" fill="none" stroke="#555" stroke-width="1.5"/>
+    <text x="405" y="378" font-size="13">Gu port: 3.5 in nominal</text>
+    <text x="405" y="398" font-size="13">rolled/deburred safe edge</text>
+    <line x1="70" y1="510" x2="610" y2="510" stroke="black"/>
+    <line x1="70" y1="488" x2="70" y2="532" stroke="black"/>
+    <line x1="610" y1="488" x2="610" y2="532" stroke="black"/>
+    <polygon points="70,510 84,504 84,516" fill="black"/>
+    <polygon points="610,510 596,504 596,516" fill="black"/>
+    <text x="340" y="500" text-anchor="middle" font-size="13">21.000 in nominal shell diameter</text>
+    <line x1="650" y1="60" x2="650" y2="440" stroke="black"/>
+    <line x1="628" y1="60" x2="672" y2="60" stroke="black"/>
+    <line x1="628" y1="440" x2="672" y2="440" stroke="black"/>
+    <text x="665" y="255" font-size="13">9.5 in total height nominal</text>
+    <text x="0" y="585" font-size="12">Measurement gates: shell diameter, dome height, thickness map, mass, Gu diameter, Gu lip depth, rim contact, leak check.</text>
+    <text x="0" y="607" font-size="12">Acoustic gate: Gu frequency is measured after assembly; workbook estimate near 115 Hz is a sanity check only.</text>
+  </g>
+  <g transform="translate(810 130)">
+    <text x="0" y="-18" font-size="16" font-weight="700">Tuning frame plan</text>
+    <circle cx="145" cy="145" r="125" fill="#f7f7f7" stroke="black" stroke-width="2"/>
+    <circle cx="145" cy="145" r="108" fill="white" stroke="black" stroke-dasharray="8 5"/>
+    <circle cx="145" cy="145" r="10" fill="white" stroke="#555"/>
+    <line x1="20" y1="145" x2="270" y2="145" stroke="black"/>
+    <line x1="145" y1="20" x2="145" y2="270" stroke="black"/>
+    <text x="18" y="305" font-size="12">Support contact: padded ring, stable under hammering.</text>
+    <text x="18" y="326" font-size="12">Ring ID follows shell support line, not final pitch geometry.</text>
+    <text x="18" y="347" font-size="12">No hard clamp on active tone fields.</text>
+  </g>
+  <g transform="translate(790 535)">
+    <rect x="0" y="0" width="360" height="190" fill="white" stroke="black"/>
+    <line x1="0" y1="30" x2="360" y2="30" stroke="black"/>
+    <text x="12" y="21" font-size="14" font-weight="700">Manufacturing Notes</text>
+    <text x="12" y="55" font-size="12">1. Purchased/professionally formed shells preferred.</text>
+    <text x="12" y="77" font-size="12">2. DC04 nitriding and stainless paths are separate.</text>
+    <text x="12" y="99" font-size="12">3. Heat treatment schedule is supplier dependent.</text>
+    <text x="12" y="121" font-size="12">4. Adhesive and finish require coupon tests.</text>
+    <text x="12" y="143" font-size="12">5. Deburr and radius every Gu/rim edge.</text>
+    <text x="12" y="165" font-size="12">6. Keep public release gated by measured data.</text>
+  </g>
+  <g transform="translate(790 750)">
+    <rect x="0" y="0" width="360" height="62" fill="white" stroke="black"/>
+    <text x="12" y="22" font-size="12">Sheet: HPAN-002 / Section + fixture starter</text>
+    <text x="12" y="42" font-size="12">Revision: 2026-05-08 sprint starter</text>
+  </g>
+</svg>
