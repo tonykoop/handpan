@@ -1,0 +1,11 @@
+X:5
+T:The Water Is Wide (D Kurd)
+C:Traditional English/Scottish, PD; arranged for D Kurd
+M:4/4
+L:1/4
+Q:1/4=76
+K:Dmin
+D | D3/2 F/ D A, | C3 A, | A, B, C D | F4 |
+F3/2 F/ F D | F G F D | C3/2 D/ C A, | D4 |
+D3/2 F/ D A, | C3 A, | A, C D F | D4 |
+F F G F | E D C A, | A,3/2 B,/ A,2- | A,4 |
