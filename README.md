@@ -9,6 +9,7 @@ This repo is intentionally framed as a buildable research packet, not a promise 
 ## Packet Map
 
 - `design.md` - root-mode design intent, D Kurd note map, assumptions, and empirical tuning strategy.
+- `tuning-tonality-notes.md` - Round 3 9-note D Kurd tonality notes, partial targets, and acoustic reference citations.
 - `family-spec.csv` - root packet row plus variant rows that should not be released without measured prototypes.
 - `bom.csv`, `sourcing.csv`, `cut-list.csv` - purchasing and fabrication surfaces with quote-sensitive fields kept explicit.
 - `assembly-manual.md` - staged build method from shell inspection through settle/retune cycles.
@@ -28,6 +29,13 @@ The current packet starts from the workbook defaults:
 - Material path: nitrided DC04 preferred for first controlled build; stainless is allowed as a separate measured branch.
 - Gu: 3.5 in nominal port with 0.5 in rolled lip, yielding a workbook first-order Helmholtz estimate near 115 Hz.
 - Notes: D3 Ding plus A3, Bb3, C4, D4, E4, F4, G4, A4 fields.
+
+## Round 3 L2 Boundary
+
+For the Round 3 build-packet sweep, this repo remains L2: complete enough for
+prototype planning and tuner review, but not L3/build-ready evidence. The D
+Kurd note map and Gu estimate are documented targets. Final pitch, partial
+balance, sustain, cross-talk, and Gu response must be measured on a real shell.
 
 ## Reality Check
 
