@@ -1,0 +1,12 @@
+X:3
+T:Greensleeves (D Kurd adaptation)
+C:Traditional English, PD (16th century); adapted for D Kurd
+M:3/4
+L:1/4
+Q:1/4=72
+K:Dmin
+%% D natural minor version (uses Bb instead of the dorian B natural)
+D | F3/2 G/ F D | C3/2 A,/ C E | D2 B, | A,3 |
+C3/2 D/ C A, | B,3/2 G,/ B, D | C A, B, | A,3 |
+F3/2 G/ F D | C3/2 A,/ C E | D G F | E3 |
+E D C | B, A, B, | c A G | A3 D |
