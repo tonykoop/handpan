@@ -1,6 +1,6 @@
 # Kurd Dawn — Songsheet
 
-**Key:** D Kurd (D natural minor)  **Tempo:** ♩= 80  **Meter:** 4/4  **Difficulty:** ★★★  
+**Key:** D Kurd (D natural minor)  **Tempo:** ♩= 80  **Meter:** 4/4  **Difficulty:** ★★★
 **Range:** A3–D5  **License:** MIT (original — Heifer Zephyr)
 
 ## Music

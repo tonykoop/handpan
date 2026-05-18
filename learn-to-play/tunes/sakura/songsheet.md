@@ -1,7 +1,7 @@
 # Sakura Sakura — Songsheet (Handpan)
 
-**Key:** A Bb D E (Sakura/In pentatonic)  **Tempo:** ♩= 66  
-**Meter:** 4/4  **Difficulty:** ★★☆  **Range:** A3–E4  
+**Key:** A Bb D E (Sakura/In pentatonic)  **Tempo:** ♩= 66
+**Meter:** 4/4  **Difficulty:** ★★☆  **Range:** A3–E4
 **Source:** Traditional Japanese, Edo period, public domain
 
 ## Music
@@ -14,7 +14,7 @@ A B d e | d B A2 | A d d B | A4 |
 ## Handpan fingering notes
 - **A3** (A): left or right index finger on the A3 field (first field from ding)
 - **Bb3** (B): adjacent field
-- **D4** (d): opposite side of the field circle  
+- **D4** (d): opposite side of the field circle
 - **E4** (e): next field clockwise from D4
 - Return to **A4** for the final held note (or use A3 + ding together)
 

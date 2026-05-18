@@ -1,6 +1,6 @@
 # The Water Is Wide — Songsheet (Handpan D Kurd)
 
-**Key:** D natural minor  **Tempo:** ♩= 76  **Meter:** 4/4  **Difficulty:** ★★★  
+**Key:** D natural minor  **Tempo:** ♩= 76  **Meter:** 4/4  **Difficulty:** ★★★
 **Range:** A3–G4  **Source:** Traditional English/Scottish, PD
 
 ## Music

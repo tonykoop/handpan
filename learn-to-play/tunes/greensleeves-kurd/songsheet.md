@@ -1,6 +1,6 @@
 # Greensleeves (D Kurd) — Songsheet
 
-**Key:** D natural minor  **Tempo:** ♩= 72  **Meter:** 3/4  **Difficulty:** ★★☆  
+**Key:** D natural minor  **Tempo:** ♩= 72  **Meter:** 3/4  **Difficulty:** ★★☆
 **Range:** A3–C5  **Source:** Traditional English, 16th century, PD; adapted for D Kurd
 
 ## Music
