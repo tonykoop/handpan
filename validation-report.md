@@ -1,6 +1,6 @@
 # Validation Report
 
-**Status:** validator-clean root packet; physical prototype validation has not started; not public-ready.
+**Status:** validator-clean root packet plus Round 31 V5 issue surfaces; physical prototype validation has not started; not measured, build-ready, or public-ready.
 
 ## Automated Checks
 
@@ -10,6 +10,9 @@
 | repo-local v4 root validator | Pass, root layout, 0 findings |
 | Required packet files | Present |
 | CAD/CNC/drawing handoff | Present, with starter SVG drawings |
+| Visual authority register | Present, `visual-output-register.csv` |
+| Empirical validation loop | Present, `validation-loop.csv` |
+| MCP provenance note | Present, `cad/mcp-session-log.md`; no MCP artifacts generated |
 | Public release posture | Not public-ready; see `public-release-checklist.md` |
 
 Commands run:
@@ -25,6 +28,8 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 - `bom.csv`, `sourcing.csv`, and `cut-list.csv` keep supplier, quote, and template assumptions explicit.
 - `assembly-manual.md` uses a purchased/professionally formed shell path for the first controlled prototype.
 - `validation.csv` separates predicted targets from unmeasured prototype results.
+- `validation-loop.csv` makes shell inspection, material/process evidence, forming, heat treatment, partial tuning, cross-talk, Gu response, and human review explicit measurement gates.
+- `visual-output-register.csv` marks starter SVG/PDF/explorer visuals as concept-only and limits authority to workbook/design-table planning inputs.
 - `risks.md` covers metal forming, heat/work-hardening, tuning repeatability, acoustic model risk, manufacturing limits, and public-release review.
 - `wolfram-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
 - `cad/handpan-cad-brief.md` and `cnc/fixture-cnc-brief.md` limit CAD/CNC to inspection, templates, and fixtures.

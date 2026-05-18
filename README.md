@@ -4,7 +4,7 @@ Engineering documentation and parametric design table for a D Kurd root-mode han
 
 Part of the [tonykoop/instrument-maker](https://github.com/tonykoop/instrument-maker) catalogue.
 
-This repo is intentionally framed as a buildable research packet, not a promise that the spreadsheet can predict a finished handpan. Handpan tone fields are governed by hammered shell geometry, work-hardening, residual stress, shell coupling, and tuner technique. The calculations in `handpan-design-table.xlsx`, `design.md`, and `wolfram-starter.wl` are first-order sanity checks for scale, Gu behavior, and documentation. Final pitch, partial balance, sustain, and isolation must be earned through measured tuning passes on a real shell.
+This repo is intentionally framed as a private research packet, not a promise that the spreadsheet can predict a finished handpan. Handpan tone fields are governed by hammered shell geometry, work-hardening, residual stress, shell coupling, heat/surface treatment, and tuner technique. The calculations in `handpan-design-table.xlsx`, `design.md`, and `wolfram-starter.wl` are first-order sanity checks for scale, Gu behavior, and documentation. Final pitch, tuned dimple geometry, partial balance, sustain, and isolation must be earned through measured tuning passes on a real shell.
 
 ## Packet Map
 
@@ -14,6 +14,9 @@ This repo is intentionally framed as a buildable research packet, not a promise 
 - `bom.csv`, `sourcing.csv`, `cut-list.csv` - purchasing and fabrication surfaces with quote-sensitive fields kept explicit.
 - `assembly-manual.md` - staged build method from shell inspection through settle/retune cycles.
 - `validation.csv` - tuner-driven acceptance plan for cents error, partials, sustain, cross-talk, Gu coupling, and retuning drift.
+- `validation-loop.csv` - Round 31 measurement loop for shell inspection, forming, heat/surface treatment, tuning, cross-talk, Gu response, and review gates.
+- `visual-output-register.csv` - authority map that keeps workbook/design-table inputs separate from concept-only SVG/PDF/explorer visuals.
+- `cad/mcp-session-log.md` - provenance note recording that no MCP-generated V5 artifacts were produced in the Round 31 patch.
 - `validation-report.md` - current validator results and human-review gates before any public release.
 - `public-release-checklist.md` - explicit path from private research packet to safe public release.
 - `risks.md` - red-team review covering metal forming, heat/work-hardening, repeatability, and public-release limits.
@@ -30,12 +33,15 @@ The current packet starts from the workbook defaults:
 - Gu: 3.5 in nominal port with 0.5 in rolled lip, yielding a workbook first-order Helmholtz estimate near 115 Hz.
 - Notes: D3 Ding plus A3, Bb3, C4, D4, E4, F4, G4, A4 fields.
 
-## Round 3 L2 Boundary
+## Round 31 V5 Issue Boundary
 
-For the Round 3 build-packet sweep, this repo remains L2: complete enough for
-prototype planning and tuner review, but not L3/build-ready evidence. The D
-Kurd note map and Gu estimate are documented targets. Final pitch, partial
-balance, sustain, cross-talk, and Gu response must be measured on a real shell.
+For the Round 31 V5 issue sweep, this repo is a private research/prototype
+planning packet. It is useful for procurement, fixture planning, tuner review,
+and evidence capture, but it is not L3, build-ready, measured, or publicly
+release-ready evidence. The D Kurd note map and Gu estimate are documented
+targets. Final pitch, dimple geometry, forming sequence, heat-treatment effects,
+partial balance, sustain, cross-talk, and Gu response must be measured on a
+real shell.
 
 ## Reality Check
 

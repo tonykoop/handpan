@@ -2,9 +2,23 @@
   "packet_id": "HPAN-D-KURD-ROOT",
   "instrument": "Handpan",
   "mode": "root",
-  "status": "private research prototype",
+  "status": "private research prototype planning packet; not measured or build-ready",
   "scale": "D Kurd",
   "source_workbook": "handpan-design-table.xlsx",
+  "readiness": "L1_packet",
+  "visual_output_register": "visual-output-register.csv",
+  "validation_loop": "validation-loop.csv",
+  "mcp_provenance_log": "cad/mcp-session-log.md",
+  "fabrication_authority": [
+    "handpan-design-table.xlsx",
+    "family-spec.csv"
+  ],
+  "concept_or_preview_only": [
+    "drawings/01-top-layout.svg",
+    "drawings/02-gu-section-fixture.svg",
+    "explorer.html",
+    "print-packet.pdf"
+  ],
   "deliverables": [
     "design.md",
     "family-spec.csv",
@@ -12,10 +26,12 @@
     "sourcing.csv",
     "cut-list.csv",
     "validation.csv",
+    "validation-loop.csv",
     "assembly-manual.md",
     "supplier-rfq.md",
     "drawing-brief.md",
     "visual-bom-brief.md",
+    "visual-output-register.csv",
     "wolfram-starter.wl",
     "risks.md",
     "photo-shotlist.md",
@@ -24,10 +40,18 @@
     "print-packet.html",
     "site/index.html",
     "cad/handpan-cad-brief.md",
+    "cad/mcp-session-log.md",
     "cnc/fixture-cnc-brief.md",
     "drawings/drawing-index.md"
   ],
-  "honesty_gate": "Formulas are first-order sanity checks only; final acceptance requires measured tuning and human review.",
+  "honesty_gate": "Formulas and starter visuals are first-order planning aids only; final acceptance requires measured shell data, measured tuning, and human review.",
+  "remaining_unknowns": [
+    "No tuned handpan shell measurements are recorded.",
+    "Dimple geometry, shoulder shape, and hammer sequence are tuner-defined and measurement-required.",
+    "Heat treatment and surface treatment are supplier/process dependent.",
+    "Gu response, cross-talk, sustain, partial balance, and post-settle drift are unmeasured.",
+    "No MCP-generated CAD, render, hero image, exploded diagram, or annotated print plate was produced in this patch."
+  ],
   "private_until": [
     "human handpan tuner review",
     "metal forming safety/process review",
