@@ -2,7 +2,7 @@
 
 ## Intent
 
-Build a D Kurd handpan research packet that gives Tony's shop a practical first shell, tuning workflow, procurement list, validation plan, and documentation bundle while staying honest about the core unknown: handpan pitch is not determined by a single spreadsheet dimension. The root deliverable is a buildable packet for a tuner-led prototype, not a guarantee of final musical quality.
+Build a D Kurd handpan research packet that gives Tony's shop a practical first shell, tuning workflow, procurement list, validation plan, and documentation bundle while staying honest about the core unknown: handpan pitch is not determined by a single spreadsheet dimension. The root deliverable is a prototype-planning packet for a tuner-led build, not a guarantee of final musical quality or a measured V5 build packet.
 
 ## Design Position
 
@@ -91,9 +91,10 @@ The prototype is accepted by measurement, not prediction:
 - Final field geometry after tuning is TBD until measured.
 - Hammer recipes are TBD and must be logged by the tuner.
 - Heat treatment schedule is supplier/process dependent.
+- Dimple geometry, shoulder shape, and tone-field isolation are measurement-required and must not be inferred from the starter SVG layout.
 - Adhesive selection needs compatibility testing with shell finish and rim geometry.
 - Public release status is TBD until IP, safety, supplier, and human tuning review are complete.
 
 ## Build Classification
 
-This is a root-mode research packet. It is suitable for a controlled first prototype, quote requests, fixture planning, shop review, and build-log setup. It is not suitable as a public "make a guaranteed handpan" recipe.
+This is a root-mode research packet. It is suitable for a controlled first prototype, quote requests, fixture planning, shop review, and build-log setup. It is not suitable as a public "make a guaranteed handpan" recipe. See `validation-loop.csv` for the measurement gates that must close before any stronger readiness claim.

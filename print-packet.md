@@ -2,9 +2,9 @@
 
 ## Cover
 
-Project: D Kurd Handpan Root-Mode Prototype  
-Status: Private research build packet  
-Source workbook: `handpan-design-table.xlsx`  
+Project: D Kurd Handpan Root-Mode Prototype
+Status: Private research build packet
+Source workbook: `handpan-design-table.xlsx`
 Primary warning: final handpan tuning is empirical and tuner-led.
 
 ## Build Intent
@@ -49,10 +49,12 @@ Keep private until the measured build log and safety/process choices have been r
 - `sourcing.csv`
 - `cut-list.csv`
 - `validation.csv`
+- `validation-loop.csv`
 - `assembly-manual.md`
 - `supplier-rfq.md`
 - `drawing-brief.md`
 - `visual-bom-brief.md`
+- `visual-output-register.csv`
 - `wolfram-starter.wl`
 - `risks.md`
 - `photo-shotlist.md`
