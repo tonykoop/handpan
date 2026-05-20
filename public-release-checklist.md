@@ -35,10 +35,10 @@ Populate `validation.csv` before public release:
 
 - Incoming shell diameter, height, thickness map, mass, material path, and Gu geometry.
 - Gu response after assembly or controlled cavity test.
-- Ding plus eight field fundamentals.
-- Octave and compound fifth partials for every field.
-- Strike matrix for cross-talk.
-- Sustain or practical decay for every field.
+- Ding plus eight field fundamentals, backed by `measured-partial-strike-log.csv`.
+- Octave and compound fifth partials for every field, backed by FFT/strobe rows in `measured-partial-strike-log.csv`.
+- Strike matrix for cross-talk, with struck-field and neighbor-field rows in `measured-partial-strike-log.csv`.
+- Sustain or practical decay for every field, linked to the same strike-log evidence.
 - Post-assembly drift after at least one week.
 - Final Gu/rim tactile safety inspection.
 

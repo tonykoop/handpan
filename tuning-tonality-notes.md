@@ -45,6 +45,12 @@ For each field, log:
 - Cross-talk into neighboring fields.
 - Tonal role notes: root, fifth, color tone, or melodic connector.
 
+Use `measured-partial-strike-log.csv` as the evidence landing zone. Each row
+must name the shell, material/process path, struck field, neighbor field,
+recording setup, measured partial peaks, cross-talk delta, sustain, and the
+audio/FFT artifact used. Until those rows contain real shell captures, the
+table above is a target map only, not a tuning result.
+
 ## Gu / Body Coupling Note
 
 The workbook Gu estimate near 115 Hz is a Helmholtz sanity check. Measure the

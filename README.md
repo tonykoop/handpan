@@ -15,6 +15,7 @@ This repo is intentionally framed as a private research packet, not a promise th
 - `assembly-manual.md` - staged build method from shell inspection through settle/retune cycles.
 - `validation.csv` - tuner-driven acceptance plan for cents error, partials, sustain, cross-talk, Gu coupling, and retuning drift.
 - `validation-loop.csv` - Round 31 measurement loop for shell inspection, forming, heat/surface treatment, tuning, cross-talk, Gu response, and review gates.
+- `measured-partial-strike-log.csv` - empty Round 35a strike/FFT/cross-talk log template; all rows remain `measurement_required` until real shell captures are recorded.
 - `visual-output-register.csv` - authority map that keeps workbook/design-table inputs separate from concept-only SVG/PDF/explorer visuals.
 - `cad/mcp-session-log.md` - provenance note recording that no MCP-generated V5 artifacts were produced in the Round 31 patch.
 - `validation-report.md` - current validator results and human-review gates before any public release.
@@ -46,6 +47,8 @@ real shell.
 ## Reality Check
 
 The handpan should remain private until a human handpan tuner or metal-forming lead reviews the packet, approves the shell process, and signs off measured prototype data. The packet is useful for procurement, fixture planning, documentation, and validation discipline. It is not a guaranteed path to a concert instrument.
+
+Issue #7 evidence starts in `measured-partial-strike-log.csv`. Do not promote tuning, partial-balance, sustain, or cross-talk claims from the D Kurd targets alone; each claim needs matching strike/FFT rows, audio or image evidence, and tuner review.
 
 ## Public Release Path
 
