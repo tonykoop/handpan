@@ -29,6 +29,7 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 - `assembly-manual.md` uses a purchased/professionally formed shell path for the first controlled prototype.
 - `validation.csv` separates predicted targets from unmeasured prototype results.
 - `validation-loop.csv` makes shell inspection, material/process evidence, forming, heat treatment, partial tuning, cross-talk, Gu response, and human review explicit measurement gates.
+- `measured-partial-strike-log.csv` is present as a Round 35a evidence landing zone for strike/FFT/cross-talk rows; it contains template rows only and does not record measured tuning evidence yet.
 - `visual-output-register.csv` marks starter SVG/PDF/explorer visuals as concept-only and limits authority to workbook/design-table planning inputs.
 - `risks.md` covers metal forming, heat/work-hardening, tuning repeatability, acoustic model risk, manufacturing limits, and public-release review.
 - `wolfram-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
@@ -43,7 +44,7 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 | Packet completeness | Validator-clean | Keep clean after future edits |
 | Specialist review | Not done | Experienced handpan maker reviews layout, shell process, and tuning workflow |
 | Supplier/process evidence | Not done | Shell material, process history, and any heat/surface treatment documented |
-| Measured tuning data | Not done | Populate `validation.csv` with fundamentals, partials, cross-talk, sustain, Gu response, and drift |
+| Measured tuning data | Not done | Populate `measured-partial-strike-log.csv` and `validation.csv` with fundamentals, partials, cross-talk, sustain, Gu response, and drift |
 | Drawing maturity | Starter review drawings only | Add actual-shell drawing updates and measurement overlay |
 | Public claims review | Not done | Confirm wording does not imply a proven finished-instrument recipe |
 
