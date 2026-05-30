@@ -14,6 +14,7 @@
 | Empirical validation loop | Present, `validation-loop.csv` |
 | MCP provenance note | Present, `cad/mcp-session-log.md`; no MCP artifacts generated |
 | Issue #7 measurement scaffold | Present, `measurement-protocol.md`, `data/measured-partial-log.csv`, and `data/cross-talk-strike-log.csv`; logs are blank/pending |
+| Issue #4 dimple-layout vector test | Scaffolded as pending authority only; no Illustrator MCP run or vector geometry generated |
 | Public release posture | Not public-ready; see `public-release-checklist.md` |
 
 Commands run:
@@ -46,6 +47,8 @@ fabrication evidence.
 - `wolfram-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
 - `cad/handpan-cad-brief.md` and `cnc/fixture-cnc-brief.md` limit CAD/CNC to inspection, templates, and fixtures.
 - `drawings/01-top-layout.svg` and `drawings/02-gu-section-fixture.svg` provide starter review drawings and label tone fields as tuner-adjusted.
+- `drawings/issue-4-dimple-layout-vector-test.md` records the pending
+  Illustrator-MCP dimple-layout vector test without fabricating coordinates.
 - `public-release-checklist.md` separates private packet completion from public release.
 
 ## Release Gates
