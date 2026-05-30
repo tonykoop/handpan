@@ -13,6 +13,7 @@
 | Visual authority register | Present, `visual-output-register.csv` |
 | Empirical validation loop | Present, `validation-loop.csv` |
 | MCP provenance note | Present, `cad/mcp-session-log.md`; no MCP artifacts generated |
+| Issue #7 measurement scaffold | Present, `measurement-protocol.md`, `data/measured-partial-log.csv`, and `data/cross-talk-strike-log.csv`; logs are blank/pending |
 | Public release posture | Not public-ready; see `public-release-checklist.md` |
 
 Commands run:
@@ -20,7 +21,15 @@ Commands run:
 ```bash
 python3 /home/tony/.codex/skills/instrument-maker-v4/scripts/validate_packet.py /mnt/c/Users/Tony/Documents/GitHub/handpan --json
 python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument-maker-v4/scripts/validate_packet.py /mnt/c/Users/Tony/Documents/GitHub/handpan --json --mode auto
+python3 /home/tony/.codex/skills/instrument-maker/scripts/validate_packet.py /mnt/c/Users/Tony/Documents/GitHub/instruments/idiophones/handpan --json
+python3 /home/tony/.codex/skills/instrument-maker/scripts/validate_visual_authority.py visual-output-register.csv
 ```
+
+Round 2 result: the current packet validator passed with 0 findings. The
+visual-authority validator failed because its v4 controlled vocabulary does
+not yet accept the V5 `pending_measurement` authority value required by the
+Round 2 honesty rule. This is recorded as a tooling/version gap, not as
+fabrication evidence.
 
 ## Clean Checks
 
@@ -29,7 +38,10 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 - `assembly-manual.md` uses a purchased/professionally formed shell path for the first controlled prototype.
 - `validation.csv` separates predicted targets from unmeasured prototype results.
 - `validation-loop.csv` makes shell inspection, material/process evidence, forming, heat treatment, partial tuning, cross-talk, Gu response, and human review explicit measurement gates.
-- `visual-output-register.csv` marks starter SVG/PDF/explorer visuals as concept-only and limits authority to workbook/design-table planning inputs.
+- `data/measured-partial-log.csv` and `data/cross-talk-strike-log.csv` provide
+  blank issue #7 capture structures; no measured partials or cross-talk values
+  are present.
+- `visual-output-register.csv` marks starter SVG/PDF/explorer visuals as concept-only and moves workbook/design-table/log-template rows to `pending_measurement`.
 - `risks.md` covers metal forming, heat/work-hardening, tuning repeatability, acoustic model risk, manufacturing limits, and public-release review.
 - `wolfram-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
 - `cad/handpan-cad-brief.md` and `cnc/fixture-cnc-brief.md` limit CAD/CNC to inspection, templates, and fixtures.
@@ -44,6 +56,7 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 | Specialist review | Not done | Experienced handpan maker reviews layout, shell process, and tuning workflow |
 | Supplier/process evidence | Not done | Shell material, process history, and any heat/surface treatment documented |
 | Measured tuning data | Not done | Populate `validation.csv` with fundamentals, partials, cross-talk, sustain, Gu response, and drift |
+| Issue #7 logs | Structure only | Populate measured-partial and cross-talk strike logs from real shell captures before any measured tuning/isolation claim |
 | Drawing maturity | Starter review drawings only | Add actual-shell drawing updates and measurement overlay |
 | Public claims review | Not done | Confirm wording does not imply a proven finished-instrument recipe |
 

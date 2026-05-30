@@ -12,3 +12,4 @@ heat-treatment recipe, or final shop-ready tone-field layout.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-05-18 | none | visual-output-register.csv | none | handpan-design-table.xlsx | authority register | metadata | Records workbook/design-table authority and concept-only visual previews. |
 | 2026-05-18 | none | validation-loop.csv | none | validation.csv | validation loop | measurement plan | Adds measurement-required gates for shell inspection, forming, tuning, Gu response, cross-talk, and human review. |
+| 2026-05-29 | none | measurement-protocol.md; data/measured-partial-log.csv; data/cross-talk-strike-log.csv | none | validation.csv; validation-loop.csv | measurement scaffold | pending_measurement | Round 2 issue #7 added blank protocol and strike-log structures only; no MCP/CAD/measurement tools were used. |
