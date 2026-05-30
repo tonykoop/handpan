@@ -1,0 +1,7 @@
+session_id,shell_id,build_state,field_id,partial_role,target_label,measurement_status,measured_hz,cents_offset,amplitude_db,decay_note,strike_id,mic_position,audio_ref,screenshot_ref,environment,operator,reviewer,review_status,notes
+TBD,TBD,pre_tune,Ding,fundamental,Ding target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Blank structure only; no measured value."
+TBD,TBD,pre_tune,Ding,octave,Ding octave target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Blank structure only; no measured value."
+TBD,TBD,pre_tune,Ding,compound_fifth,Ding compound-fifth target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Blank structure only; no measured value."
+TBD,TBD,pre_tune,Field_1,fundamental,field target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Duplicate this row for each field/state after capture."
+TBD,TBD,pre_tune,Field_1,octave,field octave target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Duplicate this row for each field/state after capture."
+TBD,TBD,pre_tune,Field_1,compound_fifth,field compound-fifth target,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Duplicate this row for each field/state after capture."

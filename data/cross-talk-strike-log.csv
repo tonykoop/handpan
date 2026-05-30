@@ -1,0 +1,5 @@
+session_id,shell_id,build_state,strike_id,struck_field,listener_field,relationship,measurement_status,struck_ref_db,listener_response_db,response_delta_db,response_window_ms,strike_force_class,mic_position,audio_ref,screenshot_ref,environment,operator,reviewer,review_status,notes
+TBD,TBD,rough_tune,TBD,Ding,Field_1,adjacent_or_audible,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Blank structure only; no measured value."
+TBD,TBD,rough_tune,TBD,Field_1,Ding,adjacent_or_audible,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Blank structure only; no measured value."
+TBD,TBD,rough_tune,TBD,Field_1,Field_2,adjacent_or_audible,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Duplicate for all adjacent and audible listener pairs."
+TBD,TBD,final_settle,TBD,Field_1,Field_2,adjacent_or_audible,measurement_required,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,unreviewed,"Repeat after shell closure, rest, and final tuning."

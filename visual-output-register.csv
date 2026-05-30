@@ -1,6 +1,8 @@
 artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,fabrication_required,notes
-DST-001,handpan-design-table.xlsx,design_table,design_table,fabrication,,none,true,"Workbook source for nominal shell scale and note targets; not calibrated tuned dimple geometry."
-DST-002,family-spec.csv,design_table,design_table,fabrication,DST-001,derived_from_authority,true,"Repo CSV summary of shell/material/scale variants; release branches require measured prototypes."
+DST-001,handpan-design-table.xlsx,design_table,design_table,pending_measurement,,none,true,"Workbook source for nominal shell scale and note targets; not calibrated tuned dimple geometry."
+DST-002,family-spec.csv,design_table,design_table,pending_measurement,DST-001,derived_from_authority,true,"Repo CSV summary of shell/material/scale variants; release branches require measured prototypes."
+TPL-001,data/measured-partial-log.csv,measurement_template,measurement_template,pending_measurement,,none,true,"Issue #7 blank measured-partial log; populate only from real shell captures."
+TPL-002,data/cross-talk-strike-log.csv,measurement_template,measurement_template,pending_measurement,,none,true,"Issue #7 blank cross-talk strike log; populate only from controlled strike captures."
 SVG-001,drawings/01-top-layout.svg,svg_preview,concept,concept_only,,none,false,"Top layout and tone-field envelope preview only; do not use as cut-ready or tuned-field geometry."
 SVG-002,drawings/02-gu-section-fixture.svg,svg_preview,concept,concept_only,,none,false,"Gu/section/fixture preview only; supplier shell, rim, lip, and fixture contact must be measured."
 HTML-001,explorer.html,render_preview,concept,concept_only,,none,false,"Studio explorer for packet review; not dimensional or fabrication authority."
