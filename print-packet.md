@@ -55,7 +55,7 @@ Keep private until the measured build log and safety/process choices have been r
 - `drawing-brief.md`
 - `visual-bom-brief.md`
 - `visual-output-register.csv`
-- `wolfram-starter.wl`
+- `handpan-starter.wl`
 - `risks.md`
 - `photo-shotlist.md`
 - `capstone-deck.md`

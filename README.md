@@ -4,7 +4,7 @@ Engineering documentation and parametric design table for a D Kurd root-mode han
 
 Part of the [tonykoop/instrument-maker](https://github.com/tonykoop/instrument-maker) catalogue.
 
-This repo is intentionally framed as a private research packet, not a promise that the spreadsheet can predict a finished handpan. Handpan tone fields are governed by hammered shell geometry, work-hardening, residual stress, shell coupling, heat/surface treatment, and tuner technique. The calculations in `handpan-design-table.xlsx`, `design.md`, and `wolfram-starter.wl` are first-order sanity checks for scale, Gu behavior, and documentation. Final pitch, tuned dimple geometry, partial balance, sustain, and isolation must be earned through measured tuning passes on a real shell.
+This repo is intentionally framed as a private research packet, not a promise that the spreadsheet can predict a finished handpan. Handpan tone fields are governed by hammered shell geometry, work-hardening, residual stress, shell coupling, heat/surface treatment, and tuner technique. The calculations in `handpan-design-table.xlsx`, `design.md`, and `handpan-starter.wl` are first-order sanity checks for scale, Gu behavior, and documentation. Final pitch, tuned dimple geometry, partial balance, sustain, and isolation must be earned through measured tuning passes on a real shell.
 
 ## Packet Map
 
