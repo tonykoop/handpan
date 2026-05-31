@@ -32,7 +32,7 @@ python3 /mnt/c/Users/Tony/Documents/GitHub/instrument-maker/skills/v4/instrument
 - `measured-partial-strike-log.csv` is present as a Round 35a evidence landing zone for strike/FFT/cross-talk rows; it contains template rows only and does not record measured tuning evidence yet.
 - `visual-output-register.csv` marks starter SVG/PDF/explorer visuals as concept-only and limits authority to workbook/design-table planning inputs.
 - `risks.md` covers metal forming, heat/work-hardening, tuning repeatability, acoustic model risk, manufacturing limits, and public-release review.
-- `wolfram-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
+- `handpan-starter.wl` provides a sweep surface and cents-error helpers without claiming calibrated field geometry.
 - `cad/handpan-cad-brief.md` and `cnc/fixture-cnc-brief.md` limit CAD/CNC to inspection, templates, and fixtures.
 - `drawings/01-top-layout.svg` and `drawings/02-gu-section-fixture.svg` provide starter review drawings and label tone fields as tuner-adjusted.
 - `public-release-checklist.md` separates private packet completion from public release.
