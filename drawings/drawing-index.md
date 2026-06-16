@@ -11,12 +11,17 @@
 | HPAN-005 Tuning Frame | Support ring geometry and contact notes | covered in HPAN-002 starter |
 | HPAN-006 Template Sheet | Ding and tone-field layout templates | brief ready |
 | HPAN-007 Validation Map | Strike points, mic placement, thickness map locations | brief ready |
+| HPAN-008 Issue #4 Dimple Layout Vector Test | Illustrator-MCP register row and pending-authority brief for a future vector test | `issue-4-dimple-layout-vector-test.md` |
 
 ## Drawing Warning
 
 All tone-field contours are layout estimates. Final shape and pitch are tuner-adjusted after measured hammering passes.
 
 The starter SVGs are intentionally conservative review drawings. They are suitable for layout discussion, fixture planning, and shop review; they are not final manufacturable tone-field geometry.
+
+Issue #4 does not add a new vector drawing. Its brief records the gates a future
+Illustrator-MCP dimple-layout test must satisfy before any vector output can be
+treated as more than `pending_measurement`.
 
 ## Public-Release Drawing Gates
 
