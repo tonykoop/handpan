@@ -58,5 +58,16 @@
     "metal forming safety/process review",
     "supplier/IP/public-release review",
     "measured prototype validation data"
-  ]
+  ],
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "idiophones/handpan/handpan-starter.wl",
+        "cloud_path": "Musical_Instruments/idiophones/handpan/handpan-starter.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/idiophones/handpan/handpan-starter.wl",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
+      }
+    ]
+  }
 }
