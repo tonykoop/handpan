@@ -2,10 +2,10 @@
   "packet_id": "HPAN-D-KURD-ROOT",
   "instrument": "Handpan",
   "mode": "root",
-  "status": "private research prototype planning packet; not measured or build-ready",
+  "status": "V5 planning packet; shell/tuner path decided; awaiting first physical shell",
   "scale": "D Kurd",
   "source_workbook": "handpan-design-table.xlsx",
-  "readiness": "L1_packet",
+  "readiness": "L2_planning",
   "visual_output_register": "visual-output-register.csv",
   "validation_loop": "validation-loop.csv",
   "mcp_provenance_log": "cad/mcp-session-log.md",
@@ -43,7 +43,8 @@
     "cad/handpan-cad-brief.md",
     "cad/mcp-session-log.md",
     "cnc/fixture-cnc-brief.md",
-    "drawings/drawing-index.md"
+    "drawings/drawing-index.md",
+    "decision-log.md"
   ],
   "honesty_gate": "Formulas and starter visuals are first-order planning aids only; final acceptance requires measured shell data, measured tuning, and human review.",
   "remaining_unknowns": [
