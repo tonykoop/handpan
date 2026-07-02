@@ -1,0 +1,34 @@
+{
+  "product": "handpan",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/handpan.scad",
+      "format": "openscad-source",
+      "sha256": "10a5e8d80ba57a5c706bd6ea92a2c84ce4aafa239d8eb2ffeb1638af2aa49fca",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Non-dimensional two-shell bounding envelope (top/bottom shell, rim joint, Ding-zone marker, Gu port); tone-field dimple geometry explicitly out of scope."
+    },
+    {
+      "path": "handpan-design-table.xlsx",
+      "format": "design-table",
+      "sha256": "80c50005ce95baa1bfa12314e45540738dd1dd5cb3201e6eb3768304953d73db",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Workbook source for nominal shell scale and note targets; not calibrated tuned dimple geometry (register DST-001)."
+    },
+    {
+      "path": "handpan-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "9f3510e3b0a080c6f9944ac8ffe75c15f8ac5c9db7bdb1b0792dfa2d1e9b16a2",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Root-mode Wolfram starter (Gu Helmholtz + plate sanity checks); source-only, not executed."
+    }
+  ],
+  "notes": "OpenSCAD shell envelope and design table are the current masters; no STEP export, no tuned dimple geometry. Gate A (Alpha workspace compile) not yet run. Tone-field/dimple tuning geometry stays out of scope until measured shell evidence exists."
+}

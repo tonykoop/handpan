@@ -33,6 +33,11 @@ This repo is intentionally framed as a private research packet, not a promise th
 - `risks.md` - red-team review covering metal forming, heat/work-hardening, repeatability, and public-release limits.
 - `drawing-brief.md`, `cad/handpan-cad-brief.md`, `cnc/fixture-cnc-brief.md`, `drawings/drawing-index.md` - CAD/CNC/drawing briefs for shells, fixtures, templates, and inspection views.
 - `capstone-deck.md`, `capstone-manifest.json`, `print-packet.md`, `print-packet.html`, `site/index.html` - presentation, print, and static-site handoff artifacts.
+- `cad/handpan.scad` - non-dimensional two-shell bounding envelope (top/bottom
+  shell, rim joint, Ding-zone marker, Gu port); authority `pending_measurement`.
+  Tone-field dimple geometry is explicitly out of scope.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Current Root Mode
 
